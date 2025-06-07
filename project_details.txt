@@ -2,4 +2,8 @@
 2.Ai based Air Drawing and Learning
 3.HUIDSN->Hands of user in the digital system networks
 4.Food Ordering system
+<<<<<<< HEAD
 5.temp_repo
+=======
+5.My_New_Repo
+>>>>>>> feature
