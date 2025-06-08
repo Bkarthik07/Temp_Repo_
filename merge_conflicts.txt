@@ -1,0 +1,1 @@
+this file is an temporary file for taking it as an example for resolving the merge conflicts 
