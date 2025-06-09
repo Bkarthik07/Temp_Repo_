@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .parent {
+            display: flex;
+            flex-direction: row;
+        }
+        .child {
+            width: 100px;
+            height: 100px;
+            display: flex;
+            flex-direction: column;
+            border: 1px solid black;
+            margin-left: 10px;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
+            color: rgb(211, 204, 204);
+        }
+    </style>
+    
+</head>
+<body>
+    <h1>Select colors</h1>
+    <div class="parent">
+        <div class="child" id="grey" style="background-color: gray;">Grey</div>
+        <div class="child" id="blue" style="background-color: blue;">Blue</div>
+        <div class="child" id="red" style="background-color: red;">red</div>
+        <div class="child" id="green" style="background-color: green;">green</div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
